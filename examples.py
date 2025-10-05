@@ -83,7 +83,7 @@ def example_2_ai_company_comparison():
         for company in companies:
             analysis = analyzer.analyze_company(company, "Artificial Intelligence")
             company_analyses.append(analysis)
-            print(f"✓ Analyzed {company}")
+            print(f"+ Analyzed {company}")
         
         # Compare companies
         print("\nComparing companies...")
