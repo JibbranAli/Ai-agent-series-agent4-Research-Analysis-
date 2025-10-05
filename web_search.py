@@ -2,7 +2,6 @@
 """
 Web Search - Simplified Version
 Web search functionality for finding credible information
-Created by: Syed Jibbran Ali
 """
 
 import requests

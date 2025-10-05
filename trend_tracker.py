@@ -2,7 +2,6 @@
 """
 Trend Tracker - Simplified Version
 Trend tracking and prediction functionality
-Created by: Syed Jibbran Ali
 """
 
 import json

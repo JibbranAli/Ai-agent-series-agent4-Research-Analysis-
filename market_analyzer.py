@@ -2,7 +2,6 @@
 """
 Market Analyzer - Simplified Version
 Market analysis functionality for companies and industries
-Created by: Syed Jibbran Ali
 """
 
 import json

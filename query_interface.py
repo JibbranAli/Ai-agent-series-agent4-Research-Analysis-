@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Interactive Query Interface - User-friendly way to enter queries
-Created by: Syed Jibbran Ali
 """
 
 import json
@@ -20,7 +19,7 @@ def show_menu():
     print("\n" + "=" * 60)
     print("🔍 Research & Analysis Agent - Query Interface")
     print("=" * 60)
-    print("Created by: Syed Jibbran Ali")
+    print("=" * 60)
     print(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
     
@@ -267,7 +266,7 @@ def get_user_input():
             elif choice == "9":
                 # Exit
                 print("\n👋 Thank you for using Research & Analysis Agent!")
-                print("Created by: Syed Jibbran Ali")
+                print("=" * 60)
                 break
             
             else:

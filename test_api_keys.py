@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 API Keys Test - Test your API keys with real data
-Created by: Syed Jibbran Ali
 """
 
 import json

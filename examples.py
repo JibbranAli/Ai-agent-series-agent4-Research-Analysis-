@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Examples - Real-world usage examples
-Created by: Syed Jibbran Ali
 """
 
 import json
@@ -267,7 +266,6 @@ def main():
     print("=" * 60)
     print(f"Agent: {config.get('agent_name', 'Research Agent')}")
     print(f"Version: {config.get('version', '1.0.0')}")
-    print(f"Created by: {config.get('created_by', 'Syed Jibbran Ali')}")
     print(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
     

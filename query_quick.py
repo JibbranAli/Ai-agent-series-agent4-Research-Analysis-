@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Simple Query Interface - Quick command-line queries
-Created by: Syed Jibbran Ali
 """
 
 import sys
@@ -20,7 +19,6 @@ def show_usage():
     """Show usage instructions"""
     print("Research & Analysis Agent - Quick Query Interface")
     print("=" * 60)
-    print("Created by: Syed Jibbran Ali")
     print("=" * 60)
     print("\nUsage Examples:")
     print("python query_quick.py company Tesla")
