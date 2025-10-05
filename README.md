@@ -235,6 +235,8 @@ graph TB
 
 ## 🔄 How It Works (Simple Flow)
 
+**This diagram shows the complete process from when a user starts until they get results.**
+
 ```mermaid
 flowchart TD
     Start([User Starts]) --> Input{How to Enter Query?}
@@ -310,6 +312,8 @@ info = agent.research_company("Tesla")
 
 ## 📊 Data Flow Diagram
 
+**This sequence diagram shows how data flows between different components when processing a user query.**
+
 ```mermaid
 sequenceDiagram
     participant User
@@ -341,6 +345,8 @@ sequenceDiagram
 ---
 
 ## 🔧 System Components
+
+**This diagram shows all the different parts of the system and how they connect to each other.**
 
 ```mermaid
 graph LR
@@ -403,10 +409,14 @@ graph LR
 
 ## 📋 Query Types & Examples
 
+**These diagrams show the different types of queries you can make and what information you'll get back.**
+
 ### 1. Company Research
+**Research any company to get detailed financial and business information.**
+
 ```mermaid
 flowchart LR
-    A[User: "Research Tesla"] --> B[Get Company Data]
+    A[User: Research Tesla] --> B[Get Company Data]
     B --> C[Financial Information]
     B --> D[Strengths & Weaknesses]
     B --> E[Market Position]
@@ -421,9 +431,11 @@ flowchart LR
 ```
 
 ### 2. Market Analysis
+**Analyze entire industries to understand market size, growth, and key players.**
+
 ```mermaid
 flowchart LR
-    A[User: "Analyze EV Market"] --> B[Get Market Data]
+    A[User: Analyze EV Market] --> B[Get Market Data]
     B --> C[Market Size]
     B --> D[Growth Rate]
     B --> E[Key Players]
@@ -438,9 +450,11 @@ flowchart LR
 ```
 
 ### 3. Trend Tracking
+**Identify and predict trends in any industry or technology.**
+
 ```mermaid
 flowchart LR
-    A[User: "Track AI Trends"] --> B[Identify Trends]
+    A[User: Track AI Trends] --> B[Identify Trends]
     B --> C[Current Trends]
     B --> D[Growth Rates]
     B --> E[Future Predictions]
@@ -457,6 +471,8 @@ flowchart LR
 ---
 
 ## 🔑 API Keys Setup
+
+**This diagram shows how to set up API keys to get real data instead of sample data.**
 
 ```mermaid
 graph TD
@@ -492,9 +508,11 @@ graph TD
 
 ## 📊 Output Formats
 
+**This diagram shows the different ways you can view and save your analysis results.**
+
 ```mermaid
 graph TB
-    A[Analysis Complete] --> B{Output Format}
+    A[Analysis Complete] --> B{Output Format?}
     
     B -->|Console| C[Display on Screen]
     B -->|File| D[Save to File]
@@ -528,7 +546,11 @@ graph TB
 
 ## 🎯 Use Cases
 
+**These diagrams show how different types of users can benefit from the Research Agent.**
+
 ### 1. Business Research
+**Business owners can research competitors and make strategic decisions.**
+
 ```mermaid
 flowchart LR
     A[Business Owner] --> B[Research Competitors]
@@ -540,6 +562,8 @@ flowchart LR
 ```
 
 ### 2. Investment Analysis
+**Investors can analyze companies and markets to make informed investment decisions.**
+
 ```mermaid
 flowchart LR
     A[Investor] --> B[Company Research]
@@ -551,6 +575,8 @@ flowchart LR
 ```
 
 ### 3. Academic Research
+**Students and researchers can analyze industries and trends for academic work.**
+
 ```mermaid
 flowchart LR
     A[Student/Researcher] --> B[Industry Analysis]
@@ -571,6 +597,8 @@ flowchart LR
 - Basic command line knowledge
 
 ### Step-by-Step Setup
+
+**This diagram shows the complete installation process from start to finish.**
 
 ```mermaid
 flowchart TD
@@ -618,6 +646,8 @@ Research & Analysis Agent/
 ## 🎮 How to Use (Step by Step)
 
 ### Method 1: Interactive Menu
+**Step-by-step process for using the interactive menu interface.**
+
 ```mermaid
 flowchart TD
     A[Run: python query_interface.py] --> B[See Menu]
@@ -634,6 +664,8 @@ flowchart TD
 ```
 
 ### Method 2: Quick Commands
+**Simple command-line process for quick queries.**
+
 ```mermaid
 flowchart TD
     A[Open Terminal] --> B[Type Command]
@@ -654,6 +686,8 @@ flowchart TD
 ## 🔧 Troubleshooting
 
 ### Common Issues & Solutions
+
+**This diagram helps you identify and fix common problems you might encounter.**
 
 ```mermaid
 graph TD
@@ -683,6 +717,8 @@ graph TD
 ## 📈 Performance & Limits
 
 ### API Rate Limits
+**This diagram shows the usage limits for each API service.**
+
 ```mermaid
 graph LR
     A[API Usage] --> B[News API]
@@ -754,6 +790,8 @@ Market Trends:
 ## 🚀 Advanced Usage
 
 ### Custom Analysis Workflow
+**This diagram shows how to create a complete analysis workflow using multiple agent methods.**
+
 ```mermaid
 flowchart TD
     A[Start Analysis] --> B[Research Company]
@@ -768,6 +806,8 @@ flowchart TD
 ```
 
 ### Integration with Other Tools
+**This diagram shows how the Research Agent can be integrated with other tools and platforms.**
+
 ```mermaid
 graph LR
     A[Research Agent] --> B[Excel Export]
