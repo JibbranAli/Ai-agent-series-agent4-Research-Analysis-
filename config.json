@@ -38,9 +38,9 @@
         ]
     },
     "api_keys": {
-        "news_api": "YOUR_NEWS_API_KEY_HERE",
-        "polygon_api": "YOUR_POLYGON_API_KEY_HERE",
-        "alpha_vantage": "YOUR_ALPHA_VANTAGE_KEY_HERE"
+        "news_api": "2c2938a21e9f466bb23e704486724236",
+        "polygon_api": "pQDiucHP7C6xp8XJ_jXw94pq8ICF8W2t",
+        "alpha_vantage": "OC6KF2C8A7VFETO3"
     },
     "settings": {
         "max_results_per_search": 10,

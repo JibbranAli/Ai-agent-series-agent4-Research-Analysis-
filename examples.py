@@ -288,11 +288,11 @@ def main():
         try:
             if example_func():
                 success_count += 1
-                print(f"✓ {name} completed successfully")
+                print(f"+ {name} completed successfully")
             else:
-                print(f"✗ {name} failed")
+                print(f"- {name} failed")
         except Exception as e:
-            print(f"✗ {name} failed with error: {str(e)}")
+            print(f"- {name} failed with error: {str(e)}")
     
     # Summary
     print("\n" + "=" * 60)
@@ -301,23 +301,23 @@ def main():
     print(f"Completed: {success_count}/{total_examples} examples")
     
     if success_count == total_examples:
-        print("✓ All examples completed successfully!")
+        print("+ All examples completed successfully!")
         print("\nGenerated reports:")
-        print("• ev_trends_report.md - EV market trends analysis")
-        print("• ai_comparison_report.md - AI company comparison")
-        print("• fintech_opportunities_report.md - Fintech opportunities")
-        print("• startup_ecosystem_report.md - Tech startup analysis")
-        print("• tesla_investment_report.md - Investment research")
+        print("- ev_trends_report.md - EV market trends analysis")
+        print("- ai_comparison_report.md - AI company comparison")
+        print("- fintech_opportunities_report.md - Fintech opportunities")
+        print("- startup_ecosystem_report.md - Tech startup analysis")
+        print("- tesla_investment_report.md - Investment research")
         
         print("\nThese examples demonstrate:")
-        print("• Market trend analysis and prediction")
-        print("• Company comparison and competitive analysis")
-        print("• Market opportunity identification")
-        print("• Startup ecosystem analysis")
-        print("• Investment research and due diligence")
+        print("- Market trend analysis and prediction")
+        print("- Company comparison and competitive analysis")
+        print("- Market opportunity identification")
+        print("- Startup ecosystem analysis")
+        print("- Investment research and due diligence")
         
     else:
-        print(f"✗ {total_examples - success_count} examples failed")
+        print(f"- {total_examples - success_count} examples failed")
         print("\nTroubleshooting:")
         print("1. Make sure all modules are present")
         print("2. Install required dependencies")
